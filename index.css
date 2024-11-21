@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   max-width: 100%;
+   margin: 0px auto;
+   
+}
+.header {
+   height: 100vh;
+   background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/landscape-mountains-sky-4843193.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   font-family: 'DM  sans', sans-serif;
+}
+nav {
+   display: flex;
+   padding: 2px 6px;
+   justify-content: center;
+}
+nav img {
+   width: 150px;
+}
+.nav-links {
+   flex: 1;
+   text-align: right;
+}
+.nav-links ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 8px 12px;
+   position: relative;
+}
+.nav-links ul li a {
+   text-decoration: none;
+   color: white;
+}
+.takeaction {
+   background-color: navy;
+   color: white;
+ padding: 2px 2px;
+}
+.header-center {
+   width: 90%;
+   color: white;
+   text-align: center;
+   padding-top: 250px;
+   max-width: 60%;
+   font-size: large;
+}
+.header-center>h3 {
+   font-size: 2rem;
+   align-items: center;
+}
+.header-center>h1 {
+   font-size: 3rem;
+   align-items: center;
+}
+.header-center>p {
+   align-items: center;
+   font-size: 1.1rem;
+   padding: 0px 20px;
+}
+.button {
+   display: flex;
+   gap: 20px;
+}
+.services-button {
+   color:black;
+   padding: 10px;
+   border: 2px solid black;
+}
+.services-button:hover {
+   background-color: navy;
+}
+.aboutus-button {
+   background-color: white;
+   color: black;
+   padding: 10px;
+}
+.categories{
+   display: flex;
+   justify-content: space-around;
+   gap: 10px;
+}
+.categories-1{
+   width: 300px;
+   height: 300px;
+   background-size: 100% 100%;
+   text-align: center;
+   color: white;
+   font-size: larger;
+
+}
+.categories-1 >p{
+   padding-top: 50%;
+}
+.c-img1{
+   background-image:url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/green-leafed-trees-during-fog-time-167684.jpg?customize=template) ;
+}
+.c-img2{
+   background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/snowy-mountain-1287145.jpg?customize=template);
+}
+.c-img3{
+   background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/photo-of-people-standing-on-top-of-mountain-near-grasses-733162.jpg?customize=template);
+}
+.ourhistory {
+   border: 2px solid blue;
+   padding: 10px 10px;
+}
+.ourhistory:hover {
+   background-color: navy;
+   color: white;
+}
+ .main {
+   display: flex;
+   gap: 20px;
+   width: 100vw;
+   text-align: center;
+   justify-content: center;
+} 
+.main-1{
+   max-width: 50%;
+   margin-left: 250px;
+   justify-content: center;
+}
+.main-2{
+   max-width: 50%;
+   margin-right: 100px;
+   justify-content: center;
+}
+.font {
+     /* min-height: 100vh;  */
+   width: 100%;
+   background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/fogs-on-green-mountain-1054222.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   /* background-size: 100%; */
+    top: 5rem;   
+}
+ .nav {
+   flex: 1;
+   text-align: center;
+}
+.font-1 {
+   list-style: none;
+   display: inline-block;
+   padding: 250px;
+   position: relative;
+   text-align: center; 
+}
+.font-1 a {
+    text-decoration: none; 
+   color: white;
+}
+.font-2 {
+   background-color: white;
+   color: navy;
+   padding: 10px 15px;
+}
+
+.header-left {
+   display: flex;
+   background-color:rgb(224, 234, 237);
+   flex-wrap: wrap;
+   justify-content: space-around;
+   max-width: 100%;
+   padding: 70px;
+   gap:15px;
+}
+.header-left>img {
+   width: 400px;
+}
+.simple{
+   display: flex;
+   width: 55%;
+   gap: 200px;
+   padding: 50px;
+}
+.simple-2,.simple-3{
+    list-style: none; 
+   display: inline-block;
+   padding: 8px 8px;
+ position: relative; 
+}
+.simple-2 a,.simple-3 a{
+   text-decoration: none;
+   color: black;
+}
+.simple-1{
+color:navy;
+}
+.simple-2 a:hover,.simple-3 a:hover{
+   color: navy;
+}
+.Powered{
+   display: flex;
+   color: navy;
+   align-items: center;
+   justify-content: center;
+   padding: 50px;
+}
+/* *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   max-width: 100%;
+   margin: 0px auto;
+
+} */
+ @media (max-width:400px) {
+   .header{
+      height: 100vh;
+   background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/landscape-mountains-sky-4843193.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   font-family: 'DM  sans', sans-serif;
+   }
+   .categories{
+      /* display: flex;
+      flex-direction: column; */
+      align-content: space-around;
+      gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(1 1fr);
+} 
+.main {
+   /* display: flex;
+   flex-direction: column;  */
+   gap: 20px;
+   width: 100%;
+   text-align: center;
+   align-content: center;
+}
+.font {
+   /* min-height: 100vh; */
+  width: 100%;
+  background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/fogs-on-green-mountain-1054222.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+   top: 5rem;   
+}
+.font-1 {
+   list-style: none;
+   display: inline-block;
+   /* padding: 250px; */
+   position: relative;
+   text-align: center; 
+}
+.header-left {
+   /* display: flex;
+   flex-direction: column; */
+   background-color:rgb(224, 234, 237);
+   flex-wrap: wrap;
+   justify-content: space-around;
+    max-width: 100%; 
+   /* padding: 70px; */
+   gap:15px;
+   display: grid;
+   grid-template-columns: repeat(1 1fr);
+}
+.simple{
+   /* display: flex;
+   flex-direction: column; */
+   width: 50%;
+   gap: 100px;
+   padding: 28px;
+   display: grid;
+   grid-template-columns: repeat(1 1fr);
+}
+ }
+ @media(min-width:401px) and(max-width:768px) {
+   .header{
+      height: 100vh;
+   background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/landscape-mountains-sky-4843193.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   font-family: 'DM  sans', sans-serif;
+   }
+   .categories{
+      /* display: flex;
+      flex-direction: column;
+      align-content: space-around; */
+      gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(2 1fr);
+} 
+.main {
+   display: flex;
+   flex-direction: column; 
+   gap: 20px;
+   width: 100%;
+   text-align: center;
+   align-content: center;
+}
+.font {
+   /* min-height: 100vh; */
+  width: 100%;
+  background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/fogs-on-green-mountain-1054222.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+   top: 5rem;   
+}
+.font-1 {
+   list-style: none;
+   display: inline-block;
+   /* padding: 250px; */
+   position: relative;
+   text-align: center; 
+}
+.header-left {
+   /* display: flex;
+   flex-direction: column; */
+   background-color:rgb(224, 234, 237);
+   flex-wrap: wrap;
+   align-content: space-around;
+    max-width: 100%; 
+   /* padding: 70px; */
+   gap:15px;
+}
+.simple{
+   display: flex;
+   /* flex-direction: column; */
+   width: 50%;
+   gap: 100px;
+   padding: 28px;
+}
+ }
+ @media (min-width:769px)and(max-width:1440px){
+   .header{
+      height: 100vh;
+   background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/landscape-mountains-sky-4843193.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   font-family: 'DM  sans', sans-serif;
+   }
+   .categories{
+      /* display: flex;
+      flex-direction: column;
+      align-content: space-around; */
+      gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(3 1fr);
+} 
+.main {
+   display: flex;
+   flex-direction: column; 
+   gap: 20px;
+   width: 100%;
+   text-align: center;
+   align-content: center;
+}
+.font {
+   /* min-height: 100vh; */
+  width: 100%;
+  background-image: url(https://websitedemos.net/mountain-02/wp-content/uploads/sites/571/2020/04/fogs-on-green-mountain-1054222.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+   top: 5rem;   
+}
+.font-1 {
+   list-style: none;
+   display: inline-block;
+   /* padding: 250px; */
+   position: relative;
+   text-align: center; 
+}
+.header-left {
+   /* display: flex;
+   flex-direction: column; */
+   background-color:rgb(224, 234, 237);
+   flex-wrap: wrap;
+   align-content: space-around;
+    max-width: 100%; 
+   /* padding: 70px; */
+   gap:15px;
+   display: grid;
+   grid-template-columns: repeat(3 1fr);
+}
+.simple{
+   display: flex;
+   /* flex-direction: column; */
+   width: 50%;
+   gap: 100px;
+   padding: 28px;
+}
+ }
+ 
